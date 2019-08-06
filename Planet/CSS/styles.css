@@ -1,0 +1,13 @@
+h1 {
+	color: green;
+	font-size: 20pt;
+
+}
+
+.image{
+	background-image: url('images/tree.jpg');
+	width: 200px;
+	height:200px;
+	background-position: top;
+
+}
