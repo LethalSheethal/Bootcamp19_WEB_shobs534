@@ -60,7 +60,7 @@ div{
   }
 }
 
-div:click{
+div:hover{
 	background-color: orange;
 	transform: scale(1.3);
 } 

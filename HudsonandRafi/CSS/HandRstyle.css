@@ -1,0 +1,131 @@
+nav {
+	float: left;
+}
+
+li{
+	font-family: 'Lacquer', sans-serif;
+	display:block;
+	float:left;
+
+}
+
+img{
+	float:right;
+	height: 100%;
+	width:100%;
+
+}
+
+.block1{
+	width: 25%;
+	float:left;
+
+}
+
+
+.block2{
+	width: 75%;
+	float:right;
+
+}
+
+
+
+    .card {
+        position: relative;
+        display: inline-block;
+    }
+    .card .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .card:hover .img-top {
+        display: inline;
+    }
+
+
+/* 1 em = 16 px */
+/* MEDIA QUERIES */
+/* tablet */
+@media screen and (min-width: 500px){
+	body{
+
+	}
+	
+	li{
+
+		font-size: 5em;
+	}
+
+	img{
+
+
+	}
+
+	.block{
+		width:100%;
+		height:auto;
+
+	}
+
+}
+
+
+
+/* desktop */
+@media screen and (min-width: 1050px) {
+	body{
+
+	}
+
+	li{
+
+		font-size: 6em;
+	}
+
+	img{
+
+
+	}
+
+	.block{
+		width:100%;
+		height:auto;
+
+	}
+
+	li {
+
+	}
+
+
+}
+
+
+
+/* FOR MOBILE DEVICES*/
+/* Source for different devices http://cssmediaqueries.com/target/ */
+@media screen and (max-device-width: 500px) and (orientation: portrait){
+	body{
+
+	}
+
+	li{
+		font-size: 4em;
+		font-weight: bold;
+
+	}
+
+	img{
+
+	}
+
+	.block{
+		width:100%;
+		height:auto;
+	}
+
+}
