@@ -1,0 +1,64 @@
+body{
+	font-family: 'Philosopher', sans-serif;
+	 background-image: url("images/headset.jpg");
+}
+
+h1{
+	font-size: 6em;
+
+}
+
+h2{
+	font-size: 4em;
+
+}
+
+
+h2{
+	font-size: 2em;
+
+}
+
+li {
+	list-style: none;
+
+}
+
+.tips{
+	font-family: 'Permanent Marker', cursive;
+}
+
+
+.section1{
+	clear:both;
+	width:43%;
+	float:left;
+
+}
+
+.section2{
+	width:43%;
+	float:right;
+}
+
+.section3{
+	clear:both;
+	float:left;
+
+}
+
+ul{
+
+
+}
+
+.agent{
+	transform: rotate(90deg);
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.conductor{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}

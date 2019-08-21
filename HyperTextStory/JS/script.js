@@ -1,3 +1,6 @@
+
+
+
 img onmouseover="bigImg(this)"
 
 function show_coords(event) {
@@ -5,3 +8,6 @@ function show_coords(event) {
 }
 
 onmousedown="show_coords(event)"
+
+
+
